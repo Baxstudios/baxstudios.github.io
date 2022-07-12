@@ -74,6 +74,21 @@
 
 /* pinetown touch */
 
+/* Slider */
+
+
+
+
+/* slider end */
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.pololo {
+
+	width: 100px;
+	height: 100px;
+}
 
 .header-logo {
 	line-height: 0;
@@ -84,9 +99,144 @@
 	top: 50%;
 }
 
+.parentik {
+	position: relative;
+	top: 0;
+	left: 0;
+}
 
+.logoo1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	/* border: 1px red solid; */
+	width: 100px;
+
+
+}
+
+img.logoo2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* border: 1px green solid; */
+	width: 100px;
+}
+
+.logoo1.smaller.has-topbar {
+
+	opacity: 0;
+}
+
+header.smaller.scroll-light div#logo a img.logoo1 {
+	margin-top: 0;
+	font-family: "Poppins";
+	font-weight: bold;
+	color: #23dbc0;
+	;
+	opacity: 0;
+}
+
+.btnn:hover {
+	background-color: transparent !important;
+	border: 1px solid #e6293e;
+}
+
+.btnn2:hover {
+	background-color: transparent !important;
+	border: 1px solid #e6293e;
+	color: #35404e !important;
+}
+
+
+.marg {
+	margin: 15px;
+}
+
+.spacer-60 {
+	width: 100%;
+	min-height: 100vh;
+	display: block;
+	clear: both;
+}
+
+/* a.btn-border,
+.btn-border {
+	display: inline-block;
+	cursor: pointer;
+	border: solid 1px #1A1C26;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 12px 30px;
+	min-width: 120px;
+	outline: 0;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 14px;
+} */
+.btnstom {
+	display: inline-block;
+	color: #fff !important;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 12px 30px;
+	min-width: 120px;
+	outline: 0;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 14px;
+}
+
+.btnstoms {
+	display: inline-block;
+	color: #fff;
+	border-radius: 9px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 12px 30px;
+	min-width: 120px;
+	outline: 0;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+/* .btnstom {
+	color: #fff;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 12px 30px;
+	min-width: 120px;
+	outline: 0;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 14px;
+} */
+a.btn-borderr {
+	color: #fff !important;
+	font-weight: bold;
+	padding: 12px 30px !important;
+	font-size: 14px !important;
+
+}
+
+.loklo {
+	color: #000;
+	text-indent: -9999px;
+	background: url(/bax_jess/images/slider/Bax\ Studios\ Logo_PNG.png);
+	width: 100px;
+	height: 5px;
+
+}
 /* body */
-
 
 /* ================================================== */
 
@@ -235,9 +385,11 @@ header.header-mobile div#logo a{
 }
 header .logo-2 {
 	display: none;
+	
 }
 header .logo-scroll {
 	display: none;
+	
 }
 header .logo, header .logo-2{
 	font-family:"Nunito";
@@ -246,7 +398,8 @@ header .logo, header .logo-2{
 	font-weight:300;
 }
 header .logo-2{
-	color:#333;
+	/* color:#333; */
+	background-image: url(/bax_jess/images/slider/Bax\ Studios\Logo_PNG.png);
 }
 header.header-full nav{
 	float: left;

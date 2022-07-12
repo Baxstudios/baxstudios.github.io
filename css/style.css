@@ -117,8 +117,83 @@ a,a:hover{
 
 /* Pinetown touch */
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.pololo {
+	
+	width: 100px;
+	height: 100px;
+}
+
+.fb-text a h4:hover {
+	color: #e6293e;
+}
+
+.whitedout {
+	color: white;
+}
+
+.parentik {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.logoo1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	/* border: 1px red solid; */
+	width: 100px;
+
+
+}
+
+img.logoo2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* border: 1px green solid; */
+	width: 100px;
+}
+
+.logoo1.smaller.has-topbar {
+
+	opacity: 0;
+}
+
+header.smaller.scroll-light div#logo a img.logoo1 {
+    margin-top: 0;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #23dbc0;;
+    opacity: 0;
+}
+
+
+.btnn:hover {
+	background-color: transparent !important;
+	border: 1px solid #e6293e;
+}
+
+.btnn2:hover {
+	background-color: transparent !important;
+	border: 1px solid #e6293e;
+	color: #35404e !important;
+}
+
+
 .marg {
 	margin: 15px;
+}
+
+.spacer-60 {
+	width: 100%;
+	min-height: 100vh;
+	display: block;
+	clear: both;
 }
 
 /* a.btn-border,
@@ -189,14 +264,14 @@ a.btn-borderr {
 	
 }
 
-/* .loklo {
+.loklo {
 	color: #000;
 	text-indent: -9999px;
 	background: url(/bax_jess/images/slider/Bax\ Studios\ Logo_PNG.png);
 	width: 100px;
 	height: 5px;
 	
-} */
+}
 
 /*  header	*/
 
@@ -298,7 +373,7 @@ header div#logo {
 	transition: all 0.3s;
 
 		text-indent: -9999px;
-		background: url(/bax_jess/images/slider/Bax\ Studios\ Logo_white_PNG.png);
+		
 		width: 100px;
 		/* height: 20px; */
 }
@@ -323,7 +398,7 @@ header .logo, header .logo-2{
 header .logo-2{
 	color:#333;
 	
-	background: url(/bax_jess/images/slider/Bax\ Studios\ Logo_PNG.png);
+	
 }
 header.header-full nav{
 	float: left;
