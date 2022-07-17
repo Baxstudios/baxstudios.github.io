@@ -352,6 +352,15 @@ header.header-bg {
 header.transparent {
 	background: none;
 }
+header.clearedpine{
+	background: white;
+	color: #35404e;
+}
+header.clearedpine #mainmenu a {
+	
+	color: #35404e;
+
+}
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
 	background: rgba(255, 255, 255, 0.0);
 }
